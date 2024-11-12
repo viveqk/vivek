@@ -12,11 +12,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="script.js"></script>
   </head>
 
   <body>
     <header class="hdr">
       <h1><a href="#" target="_blank" class="logo">Vivek.</a></h1>
+      <button class="hamburger" aria-label="Menu" onclick="toggleNav()">
+        <i class="fa-solid fa-bars"></i>
+        <!-- Font Awesome icon for hamburger -->
+      </button>
       <nav class="nav">
         <a href="#" class="active">Home</a>
         <a href="#">Portfolio</a>
@@ -51,20 +56,22 @@
             <a href="PageCv.html" target="_blank">Hire me</a>
           </div>
         </div>
-        <div>
-          <img src="vivek.svg" alt="Profile Picture" />
+        <div class="right-area">
+        <div class="propic">
+          <img src="vivek.png" alt="Profile Picture" />
+        </div>
+        <div class="social">
+          <a href="https://github.com/viveqk" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/vivekpremanath" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/viveqk" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
         </div>
       </div>
-      <div class="social">
-        <a href="https://github.com/viveqk" target="_blank"
-          ><i class="fa-brands fa-github"></i
-        ></a>
-        <a href="https://www.linkedin.com/in/vivekpremanath" target="_blank"
-          ><i class="fa-brands fa-linkedin"></i
-        ></a>
-        <a href="https://www.instagram.com/viveqk" target="_blank"
-          ><i class="fa-brands fa-instagram"></i
-        ></a>
       </div>
     </section>
     <footer class="foot">
